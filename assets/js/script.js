@@ -21,7 +21,9 @@ function initMap() {
 		var miUbicacion = new google.maps.Marker({
 			position: {lat: latitud, lng: longitud},
 			animation: google.maps.Animation.DROP,
-			map: map
+			map: map,
+			type: 'aqui', 
+			icon: 'assets/img/map.svg'
 		});
 		map.setZoom(17);
 		map.setCenter({lat:latitud, lng:longitud});
