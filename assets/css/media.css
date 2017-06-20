@@ -1,0 +1,12 @@
+@media screen and (max-width: 767px) {
+	.navbar-toggle {
+    	margin: 1em;
+    	border-color: inherit;
+	}
+	form.navbar-form {
+		width: 100%;
+	}
+	h1 {
+		font-size: 1.8rem;
+	}
+}
